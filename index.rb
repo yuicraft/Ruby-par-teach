@@ -20,3 +20,19 @@ end
 #메소드랑 동일
 
 sample_variavle = "sample"
+
+#코드 블록 방침
+#do..end
+#여러줄 
+#{..}
+#한줄
+
+#여러줄에 걸쳐 기술하는 경우
+1.upto(2) do |n|
+    puts n
+end
+
+#한줄 코딩
+1.upto(2) {|n| puts n}
+
+
