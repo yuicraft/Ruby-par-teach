@@ -15,5 +15,16 @@ def add1(a,b)
 
 end
 
-puts add1(1,2);
+puts add1(1,2)
 puts k
+
+#루비는 줄바꿈으로 식을 구별하므로 ;찍을 필요 없다.
+# name = 'ruby'; puts name 이렇게 쓸수는 있는데 쓰지 마세요
+
+#인코딩 방식 설정 
+#coding: utf-8
+#encoding: utf-8
+#-*- coding: utf-8
+#vim: set filesecond=utf-8:
+#주로 맨 앞줄에 지정
+#루비 2.0부터는 기본 코딩 방식이 uft-8
