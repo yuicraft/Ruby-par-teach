@@ -66,7 +66,7 @@ puts FOO_BAR
 FOO_BAR = "AnA는 갓동아리이다"
 
 def set_foo
-    FOO_BAR = "아니다 이 악마야"
+    FOO_BAR = "아니다 이 악마야!"
 end
 
 
