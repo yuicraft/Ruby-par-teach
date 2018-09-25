@@ -50,4 +50,4 @@ end
 
 Whatever.superclass #Object 
 
-#Object에는 객체의 기본적인 동작이 정의
+#Object에는 객체의 기본적인 동작이 정의되어 있다.
