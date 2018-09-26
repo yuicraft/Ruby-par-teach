@@ -2,7 +2,7 @@
 #루비는 단일 상속을 지원
 #두 클래스가 상속 관계에 있을 때 상속된 쪽을 슈퍼 클래스(super class)
 #상속한 쪽을 서브 클래스(suv class)라고 한다.
-#클래스를 상속하려면 클래스 정의시에 <로 슈퍼 클래스를 지정한다. 
+#클래스를 상속하려면 클래스 정의시에 < 로 슈퍼 클래스를 지정한다. 
 
 #class 서브 클래스 < 슈퍼 클래스
 #end
@@ -33,7 +33,7 @@ child.hi #"Hello, Child Class" 출력
 class Child < Parent
     def hello 
         super
-        #Parent#hello를 호출
+        # Parent#hello를 호출
         #super를 호출하면 슈퍼클래스에 있는 같은 이름의 메소드를 호출 할 수 있다.
         puts "Hello, Child Class"
     end
